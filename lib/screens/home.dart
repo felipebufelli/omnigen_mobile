@@ -86,10 +86,11 @@ class _HomeState extends State<Home> {
               scrollDirection: Axis.vertical,
               child: Column(
                 children: <Widget>[
-                  channel(context, "Minha loja"),
-                  channel(context, "Cielo"),
-                  channel(context, "GetNet"),
-                  channel(context, "Mercado Livre"),
+                  channel(context, "Minha loja", 0),
+                  channel(context, "Cielo", 1),
+                  channel(context, "GetNet", 2),
+                  channel(context, "Magalu", 3),
+                  channel(context, "Mercado Livre", 4),
                 ],
               ),
             ),
@@ -100,12 +101,12 @@ class _HomeState extends State<Home> {
   }
 }
 
-Widget channel(BuildContext context, String typeChannel) {
+Widget channel(BuildContext context, String typeChannel, int id) {
   return FlatButton(
     padding: EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 0.0),
     onPressed: () {
       Navigator.push(context,
-          MaterialPageRoute(builder: (context) => MyStore("$typeChannel")));
+          MaterialPageRoute(builder: (context) => MyStore("$typeChannel", id)));
     },
     child: Container(
       width: 325.0,

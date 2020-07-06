@@ -7,6 +7,7 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +39,7 @@ class _LoginState extends State<Login> {
                   borderRadius: BorderRadius.circular(15)),
               child: Padding(
                 padding: const EdgeInsets.only(left: 10.0),
-                child: TextField(
+                child: TextFormField(
                   cursorColor: Colors.white,
                   textAlignVertical: TextAlignVertical.bottom,
                   style: TextStyle(
@@ -66,7 +67,7 @@ class _LoginState extends State<Login> {
                   borderRadius: BorderRadius.circular(15)),
               child: Padding(
                 padding: const EdgeInsets.only(left: 10.0),
-                child: TextField(
+                child: TextFormField(
                   cursorColor: Colors.white,
                   textAlignVertical: TextAlignVertical.bottom,
                   style: TextStyle(
@@ -81,6 +82,7 @@ class _LoginState extends State<Login> {
                       fontSize: 15.0,
                     ),
                   ),
+                  obscureText: true,
                 ),
               ),
             ),

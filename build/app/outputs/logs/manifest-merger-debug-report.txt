@@ -7,6 +7,7 @@ INJECTED from /home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/sr
 MERGED from /home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -58,7 +59,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/bufel
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/fecc98e05c7ccd4a0eedf7cff343a233/core-1.0.2/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:10:9-39
+		ADDED from /home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:10:9-32
 	android:icon
 		ADDED from /home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:11:9-43
 	android:name
@@ -101,6 +102,8 @@ MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/omnigen_mobile/
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/bufelli/Documents/dev_projects/omnigen_mobile/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/b8b68c04ee72209a3beca37e17f7088d/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44

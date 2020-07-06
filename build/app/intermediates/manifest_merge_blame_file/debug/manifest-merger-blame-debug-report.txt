@@ -36,8 +36,8 @@
 27        android:debuggable="true"
 28        android:icon="@mipmap/ic_launcher"
 28-->/home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:11:9-43
-29        android:label="omnigen_mobile" >
-29-->/home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:10:9-39
+29        android:label="Omnigen" >
+29-->/home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:10:9-32
 30        <activity
 30-->/home/bufelli/Documents/dev_projects/omnigen_mobile/android/app/src/main/AndroidManifest.xml:12:9-23:20
 31            android:name="br.com.felipebufelli.omnigen_mobile.MainActivity"
